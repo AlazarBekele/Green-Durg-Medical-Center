@@ -1,0 +1,494 @@
+
+body {
+  background: rgb(224, 224, 224);
+  padding-top: 30px;
+}
+.Email-input {
+  display: inline-block;
+}
+.Email {
+  display: inline-block;
+}
+.social-media {
+  width: 100%;
+  background: rgb(106, 151, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Calibri, sans-serif;
+  color: white;
+  font-size: 10px;
+  z-index: 1;
+}
+.Shop-time, .Time, .Link-Social {
+  display: inline-block;
+}
+.header {
+  width: 100%;
+  background: white;
+  position: fixed;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 1;
+}
+.logo, .find, .Btn {
+  display: inline-block;
+}
+.logo {
+  margin-left: 15px;
+}
+.Btn {
+  margin-right: 35px;
+  background: green;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.find {
+  margin-left: -130px;
+}
+.find a {
+  text-decoration: none;
+  padding-left: 90px;
+  font-family: Roboto ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  transition: 0.5s;
+}
+.find a:hover {
+  color: green;
+}
+.First-bar {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.Welcome {
+  font-family: Bradley Hand ITC, Antonellie Calligraphy Demo;
+  color: green;
+  font-size: 40px;
+}
+.info-house {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  font-size: 80px;
+  display: inline-block;
+  margin-top: -10px;
+}
+.time-info {
+  margin-top: -30px;
+}
+.Time-year {
+  font-size: 15px;
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+.Welcome-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container-welcome {
+  display: inline-block;
+  margin-left: 15px;
+}
+.Btn1 {
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  border: none;
+  background: orangered;
+  color: white;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.Btn2 {
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  width: 200px;
+  height: 35px;
+  background: green;
+  border: none;
+  color: white;
+}
+.Btn-Container {
+  margin-left: 40px;
+}
+
+.Second-bar {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.Container-Second {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.left-bar {
+  display: inline-block;
+}
+.right-bar {
+  width: 450px;
+  display: inline-block;
+  font-size: 13px;
+  font-family: Comic Sans MS;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 100px;
+  padding-left: 80px;
+}
+.Introduce-div {
+  margin-left: 15px;
+}
+.Second-bar-tltle {
+  font-family: Bradley Hand ITC, Antonellie Calligraphy Demo;
+  color: green;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.Quality {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  font-size: 40px;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+.Image-Container {
+  display: inline-block;
+  height: 500px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+.Img1 {
+  display: inline-block;
+}
+.Img2{
+  display: flex;
+  flex-direction: column;
+}
+.Img2 {
+  padding-top: -400px;
+  margin-top: -80px;
+}
+.Image-Second {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 80px;
+  margin-top: 100px;
+}
+
+.about-Medical {
+  font-family: Bradley Hand ITC, Antonellie Calligraphy Demo;
+  margin-left: 40px;
+  color: orangered;
+}
+.About-Manufacturing {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  font-size: 30px;
+  margin-right: 30px;
+  text-align: center;
+  color: green;
+}
+.Manufacturing {
+  width: 500px;
+}
+.last-title {
+  margin-top: 80px;
+}
+.Owner {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
+.profile {
+  display: inline-block;
+}
+.sign {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Container-Card {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+
+.Card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 230px;
+  background: rgba(0, 207, 0, 0.253);
+  border-radius: 10px;
+}
+.Card-inline {
+  display: inline-block;
+}
+.Card-info {
+  width: 200px;
+  display: inline-block;
+}
+.Card-img {
+  display: inline-block;
+}
+.card-title {
+  font-family: Bradley Hand ITC, Antonellie Calligraphy Demo;
+  color: green;
+  font-size: 20px;
+}
+.Card-midle-title {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  color: orangered;
+  font-size: 25px;
+}
+.Card-Btn {
+  border: none;
+  background: orangered;
+  color: white;
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+.Third-bar-main {
+  padding-top: 40px;
+}
+.Third-bar {
+  font-family: Bradley Hand ITC, Antonellie Calligraphy Demo;
+  font-size: 35px;
+  color: orangered;
+  text-align: center;
+}
+.Third-title {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  font-size: 45px;
+  margin-top: -10px;
+}
+.Third-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-main {
+  display: inline-block;
+}
+.nav-container {
+  width: 240px;
+  background: rgb(224, 224, 224);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px rgb(194, 194, 194);
+}
+.nav-img {
+  width: 230px;
+}
+.nav-star {
+  
+}
+.nav-frute {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+  color: orangered;
+}
+.caloris {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  color: green;
+}
+.container-main {
+  
+}
+.nav-img1 {
+  display: flex;
+  justify-content: center;
+}
+.container-nav {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.sale {
+  border: 1px solid red;
+  background: red;
+  border-radius: 3px;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 8px;
+}
+.sale-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Fourth-bar-container {
+  display: flex;
+  justify-content: space-around;
+}
+.Fourth-bar {
+  text-align: center;
+}
+.fourth-main-title {
+  font-family: Bradley Hand ITC, Antonellie Calligraphy Demo;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 0
+}
+.Fourth-second-title {
+  font-family: 'Arial Rounded MT', sans-serif;
+
+  font-size: 35px;
+  margin-top: 0;
+  color: orangered;
+}
+.Fourth-bar-img-container {
+  width: 370px;
+  height: 436px;
+  opacity: 50%;
+  transition: 0.6s;
+}
+.Fourth-bar-img-container:hover {
+  opacity: 90%;
+}
+.Fourth-img {
+  width: 350px;
+  height: 436px;
+  border-radius: 10px;
+  box-shadow: 10px 2px 25px rgb(255, 255, 255);
+}
+
+.Docter-container {
+  display: flex;
+  justify-content: center;
+}
+.Docter-name {
+  opacity: 0;
+  width: 340px;
+  border-radius: 10px;
+  background-color: white;
+  color: orangered;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  margin-top: 27em;
+  transition: 0.9s;
+}
+.Fourth-bar-img-container:hover .Docter-name {
+  opacity: 1;
+}
+.Fourth-bar-main-container {
+  margin-top: 100px;
+}
+
+.fiveth-bar-img {
+  display: inline-block;
+}
+.fiveth-img {
+  width: 300px;
+  border-radius: 10px;
+  opacity: 60%;
+  transition: 0.6s;
+}
+.fiveth-img:hover {
+  opacity: 100%;
+}
+.fiveth-bar {
+  text-align: center;
+}
+.time-flex {
+  position: absolute;
+  margin-top: 20em;
+  margin-left: 20em
+}
+.time-container {
+  display: inline-block;
+  background: orange;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 10px;
+}
+.time-fiveth {
+  text-align: center;
+  color: white;
+  font-family: 'Arial Rounded MT', sans-serif;
+
+}
+
+.fiveth-bar-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Final-green {
+  width: 100%;
+  background: green;
+  height: 550px;
+  margin-top: 150px;
+}
+.First-bar-img {
+  width: 700px;
+}
+.First-bardiv {
+  display: inline-block;
+}
+.Signture {
+  width: 200px;
+}
+.Signture-Main {
+  display: inline-block;
+  margin-left: 5px;
+}
+.heart-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.final-heart {
+  width: 700px;
+}
+.logo-img {
+  width: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
